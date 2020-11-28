@@ -10,7 +10,7 @@ public class Game_Frame extends JFrame {
 		
 		this.add(panel);
 		this.setTitle("Snake Game");
-		this.setResizable(true);
+		this.setResizable(true); // if you want
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.pack(); // it is going to take our jframe and fit it snugly around all of the components that we add to the jframe 
 		this.setVisible(true); 
